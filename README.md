@@ -1,2 +1,0 @@
-# NordWestTrans
-Hello World!

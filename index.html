@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>НордВестТранс</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.min.css">
+    <link rel="stylesheet" href="css/wi-feedback.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.wi-feedback.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-locale_ru-by.js"></script>
+    <script src="js/ui-bootstrap-tpls-2.5.0.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&onload=jQuery.fn.nwtMapInit" async></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="topmenu">
+                <li><a href="#slideshow"><i class="fa fa-th-list fa-1x" aria-hidden="true"></i> Главная</a></li>
+                <li><a href="#directions"><i class="fa fa-globe" aria-hidden="true"></i> Направления</a></li>
+                <li><a href="#services"><i class="fa fa-truck" aria-hidden="true"></i> Услуги</a></li>
+                <li><a href="#portfolio"><i class="fa fa-picture-o" aria-hidden="true"></i> Галерея</a></li>
+                <li><a href="#about"><i class="fa fa-info-circle" aria-hidden="true"></i> О компании</a></li>
+                <li><a href="#contacts"><i class="fa fa-address-book-o" aria-hidden="true"></i> Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="displaySection">
+        <section id="slideshow" class="activeSection">
+            <div class="slider owl-carousel">
+
+                <div class="item">
+                    <img src="img/Slide-1.jpg" alt="Продукт 1">
+                    <div class="container">
+                        <div class="slideContent">
+                            <h2>География перевозок</h2>
+                            <p class="font-italic">Наша компания уже более 17-ти лет работает в сфере международных грузовых перевозок и экспедирования грузов на территории стран СНГ, Европы и Азии.</p>
+                        </div>
+                        <a href="/directions">Подробнее...</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/Slide-2.jpg" alt="Продукт 2">
+                    <div class="container">
+                        <div class="slideContent">
+                            <h2>Наши услуги</h2>
+                            <p class="font-italic">Мы стремимся обеспечить высокий уровень сервиса, предлагая Вам наилучшее решение с точки зрения стоимости, качества и времени.</p>
+                        </div>
+                        <a href="/services">Подробнее...</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/Slide-3.jpg" alt="Продукт 3">
+                    <div class="container">
+                        <div class="slideContent">
+                            <h2>Галерея</h2>
+                            <p class="font-italic">В галереи представлены фотографии автотранспорта.</p>
+                        </div>
+                        <a href="/portfolio">Подробнее...</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/Slide-4.jpg" alt="Продукт 4">
+                    <div class="container">
+                        <div class="slideContent">
+                            <h2>О компании</h2>
+                            <p class="font-italic">ООО «НОРДВЕСТТРАНС» успешно осуществляет деятельность в сфере международных грузовых перевозок и экспедирования грузов, является действительным членом Ассоциации «БАМАП» с 15 мая 1998 года.</p>
+                        </div>
+                        <a href="/about">Подробнее...</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/Slide-5.jpg" alt="Продукт 5">
+                    <div class="container">
+                        <div class="slideContent">
+                            <h2>Контакты</h2>
+                            <p class="font-italic">Мы всегда рады нашим клиентам, свяжитесь с нами через форму обратной связи или позвоните по одному из указанных телефонов</p>
+                            <p>Республика Беларусь, г.Минск, ул. Тимирязева 65, офис 607, тел/факс +375 17 2544620
+                                <br>info@nwt.by</p>
+                        </div>
+                        <a href="/contacts">Подробнее...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <h1 class="display-1 text-center">Nord West Trans</h1>
+                <p> Транспортно-экспедиционная компания «НордВестТранс» — компания с многолетним успешным опытом работы, это ваш надежный и профессиональный помощник по доставке грузов в любую точку Европы, а также стран СНГ. Заказывая наши услуги, клиент может быть уверенным, что его товар будет доставлен быстро, в указанное время и по заранее оговоренной стоимости. На сегодняшний день мы организовываем все виды транспортных перевозок. Профессиональный коллектив, автоматизация бизнес процессов, позволяют подбирать и организовывать для наших заказчиков оптимальные логистические решения.</p>
+                <h2 class="display-5 text-center">Сотрудничая с НордВестТранс вы получаете:</h2>
+                <div class="plus text-center">
+
+                    <div class="card text-white bg-dark mb-3">
+                        <div class="card-header text-center"><i class="fa fa-handshake-o fa-3x" aria-hidden="true"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Хорошего и<br>стабильного<br>партнера</h5>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark mb-3">
+                        <div class="card-header text-center"><i class="fa fa-users fa-3x" aria-hidden="true"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Оперативную<br>обработку ваших<br>заявок</h5>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark mb-3">
+                        <div class="card-header text-center"><i class="fa fa-tags fa-3x" aria-hidden="true"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Умеренные<br>тарифы и<br>скидки</h5>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark mb-3">
+                        <div class="card-header text-center"><i class="fa fa-shield fa-3x" aria-hidden="true"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Надежность и<br>защищенность<br>в работе</h5>
+                        </div>
+                    </div>
+                    <div class="card text-white bg-dark mb-3">
+                        <div class="card-header text-center"><i class="fa fa-hourglass-end fa-3x" aria-hidden="true"></i></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Своевременную<br>доставку<br>грузов</h5>
+                        </div>
+                    </div>
+
+                </div>
+                <p>Доверяя нам вы можете быть уверенны что для вашего груза мы предоставим технически исправные транспортные средства под управлением опытных водителей. Это позволяет нам обслуживать наших клиентов автомобильным транспортом любого типа в соответствии с графиком и заявками перевозок. Мы всегда готовы рассмотреть любые ваши предложения и совместно обсудить общую стратегию развития наших отношений.</p>
+
+            </div>
+        </section>
+
+        <section id="directions">
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-3">География перевозок</h1>
+                    <p class="lead">Наша компания уже более 17-ти лет работает в сфере международных грузовых перевозок и экспедирования грузов на территории стран СНГ, Европы и Азии.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="content">
+                    <h2>Автомобильные грузоперевозки осуществляются:</h2>
+                    <ul>
+                        <li>Между странами Европы, включая Скандинавию</li>
+                        <li>Между странами СНГ</li>
+                        <li>Внутри России</li>
+                        <li>Между странами Европы, включая Балканы, и странами СНГ</li>
+                        <li>Между странами Европы, включая Балканы, и Кавказом</li>
+                        <li>Между странами Европы, включая Балканы, и странами Средней Азии</li>
+                    </ul>
+                    <img src="/img/Road.jpg" alt="География перевозок">
+                    <div class="accordion-option">
+                        <h3 class="title">БОЛЬШЕ ИНФОРМАЦИИ:</h3>
+                        <a href="javascript:void(0)" class="toggle-accordion active" accordion-id="#accordion"></a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                     <i class="fa fa-cube" aria-hidden="true"></i> ВИДЫ ГРУЗОВ
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <img src="/img/cargo.jpg" alt="ВИДЫ ГРУЗОВ"> Организация автомобильных грузоперевозок является одной из наших услуг, включая перевозку техники и перевозку автомобильных запчастей. Мы перевозим следующие виды грузов: штучные, насыпные и наливные, комплектные и сборные, скоропортящиеся, тяжеловесные и негабаритные. Транспортировка специальных категорий грузов проходит с соблюдением правил безопасности. Жизнь и здоровье участников, а также безопасность транспорта будет находиться под угрозой при нарушении данных правил. Чтобы перевозить опасные грузы требуется особый вид разрешения. Мы предоставляем услуги автомобильных грузоперевозок, высокое качество сервиса и выгодную стоимость перевозки техники, крупногабаритных и других видов грузов. Для таких перевозок требуется согласование маршрута с госорганами и получение особого разрешения. НордВестТранс тщательно следит за изменениями в национальном и международном регулировании грузоперевозок автомобильным транспортом. Поэтому наши сотрудники предоставляют своевременную и безопасную перевозку с учётом свойств каждого конкретного груза.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                      <i class="fa fa-truck" aria-hidden="true"></i> ВИДЫ ТРАНСПОРТА
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <img src="/img/transport.jpg" alt="ВИДЫ ТРАНСПОРТА"> Для организации грузоперевозок автомобильным транспортом используются специальные автомобили. Наша компания использует как собственный автопарк, так и транспорт сторонних логистических компаний. Благодаря сотрудничеству с последними, нам удаётся соблюдать условия транспортировки товаров всех типов, гарантировать безопасность грузов и сократить издержки. Рефрижераторы, закрытые цельнометаллические грузовики, малотоннажный колесный транспорт, тентованный автотранспорт – все эти и другие виды полуприцепов и грузовых автомобилей используются для перевозок. Укомплектованный автопарк позволяет нам заниматься транспортировкой товаров от одной паллеты до многотонных партий. Опытные сотрудники НордВестТранс разрабатывают как схемы перевозки с использованием одного вида транспорта (мономодальные), так и схемы перевозки с совместным использованием железнодорожного, воздушного, морского транспорта и автомобилей (мультимодальные).
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                      <i class="fa fa-share-square-o" aria-hidden="true"></i> НАШИ ВОЗМОЖНОСТИ
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <img src="/img/capabilities.jpg" alt="НАШИ ВОЗМОЖНОСТИ">
+                                    <ul>
+                                        <li>Страховка грузов от всех рисков при автомобильной грузоперевозке.</li>
+                                        <li>Онлайн-контроль за перемещением и безопасностью груза.</li>
+                                        <li>Оформление таможенных и сопроводительных документов.</li>
+                                        <li>Срочное выполнение заказов.</li>
+                                        <li>Грузоперевозки автомобильным транспортом позволяют своевременно доставить товар клиенту.</li>
+                                        <li>Международные грузоперевозки автомобильным транспортом.</li>
+                                        <li>Организация автомобильных грузоперевозок от НордВестТранс – это анализ рисков, разработка оптимального маршрута и учёт возможности форс-мажорных ситуаций.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                      <i class="fa fa-file-text-o" aria-hidden="true"></i> ПРАВИЛА/ДОКУМЕНТЫ
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                    <img src="/img/documentation.jpg" alt="ДОКУМЕНТЫ"> Ответственность перевозчика, правила транспортировки отдельных типов грузов, таможенные процедуры, условия дорожной транспортировки грузов, требования к транспорту, лицензирование деятельности перевозчика – всё это регулируется рядом международных и национальных нормативно-правовых актов. В Беларуси существует множество законов и правил в области автомобильных грузоперевозок. Кроме того, при осуществлении международных грузоперевозок автомобильным транспортом действительную юридическую силу имеет ряд актов, в числе которых: Европейское соглашение о международной дорожной перевозки опасных грузов, Конвенция о договоре международной дорожной перевозки грузов, Таможенная конвенция о международной перевозки грузов с использованием книжки МДП.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="services">
+
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="display-3">Наши услуги</h1>
+                    <p class="lead"> Мы стремимся обеспечить высокий уровень сервиса, предлагая Вам наилучшее решение с точки зрения стоимости, качества и времени.</p>
+                    <hr class="my-4">
+                    <p>Заполните форму заявки и мы рассчитаем стоимость перевозки:</p>
+                    <p class="lead">
+                        <a id="" class="btn btn-light btn-lg nwt-fb1-link" href="#nwt-fb1" role="button">Рассчитать перевозку</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="container">
+
+
+                <div class="serviceBlock">
+                    <div class="service">
+                        <img src="/img/srv1.jpg" alt="ЕЖДУНАРОДНЫЕ ГРУЗОПЕРЕВОЗКИ">
+                        <h3>МЕЖДУНАРОДНЫЕ ГРУЗОПЕРЕВОЗКИ</h3>
+                        <p>Наша компания осуществляет международные перевозки автотранспортом.</p>
+                        <a class="btn btn-dark nwt-mfp-inline" href="#nwt-srv1">Подробнее...</a>
+                    </div>
+                    <div class="service">
+                        <img src="/img/srv2.jpg" alt="ЭКСПЕДИРОВАНИЕ ГРУЗОВ">
+                        <h3>ЭКСПЕДИРОВАНИЕ ГРУЗОВ</h3>
+                        <p>Пользуясь услугой экспедиции, вы можете быть уверены, что груз будет доставлен четко в оговоренный срок.</p>
+                        <a class="btn btn-dark nwt-mfp-inline" href="#nwt-srv2">Подробнее...</a>
+                    </div>
+                    <div class="service">
+                        <img src="/img/srv3.jpg" alt="СБОРНЫЕ ГРУЗЫ">
+                        <h3>СБОРНЫЕ ГРУЗЫ</h3>
+                        <p>Доставка сборных грузов – приоритетное направление НордВестТранс уже 15 лет.</p>
+                        <a class="btn btn-dark nwt-mfp-inline" href="#nwt-srv3">Подробнее...</a>
+                    </div>
+                    <div class="service">
+                        <img src="/img/srv4.jpg" alt="МУЛЬТИМОДАЛЬНЫЕ ПЕРЕВОЗКИ">
+                        <h3>МУЛЬТИМОДАЛЬНЫЕ ПЕРЕВОЗКИ</h3>
+                        <p>Наша компания предоставляет обширный комплекс транспортно-логистических услуг, требуемых для проведения мультимодальных перевозок.</p>
+                        <a class="btn btn-dark nwt-mfp-inline" href="#nwt-srv4">Подробнее...</a>
+                    </div>
+                    <div class="service">
+                        <img src="/img/srv5.jpg" alt="ЖЕЛЕЗНОДОРОЖНЫЕ ПЕРЕВОЗКИ">
+                        <h3>ЖЕЛЕЗНОДОРОЖНЫЕ ПЕРЕВОЗКИ</h3>
+                        <p>Холдинг НордВестТранс предоставляет обширный спектр транспортно-логистических услуг, требуемых для организации грузоперевозки железнодорожным транспортом.</p>
+                        <a class="btn btn-dark nwt-mfp-inline" href="#nwt-srv5">Подробнее...</a>
+                    </div>
+                    <div class="service">
+                        <img src="/img/srv6.jpg" alt="СТРАХОВАНИЕ">
+                        <h3>СТРАХОВАНИЕ ГРУЗОВ</h3>
+                        <p>В комплекс транспортных и логистических услуг компании НордВестТранс входят услуги страхования груза.</p>
+                        <a class="btn btn-dark nwt-mfp-inline" href="#nwt-srv6">Подробнее...</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="portfolio owl-carousel">
+                    <img src="/img/slideshow/slide1.jpg" alt="Foto 1">
+                    <img src="/img/slideshow/slide2.jpg" alt="Foto 2">
+                    <img src="/img/slideshow/slide3.jpg" alt="Foto 3">
+                    <img src="/img/slideshow/slide4.jpg" alt="Foto 4">
+                    <img src="/img/slideshow/slide5.jpg" alt="Foto 5">
+                    <img src="/img/slideshow/slide6.jpg" alt="Foto 6">
+                    <img src="/img/slideshow/slide7.jpg" alt="Foto 7">
+                    <img src="/img/slideshow/slide8.jpg" alt="Foto 8">
+                    <img src="/img/slideshow/slide9.jpg" alt="Foto 9">
+                </div>
+                <div class="portfolioNav owl-carousel">
+                    <img src="/img/slideshow/slide1.jpg" alt="Foto 1">
+                    <img src="/img/slideshow/slide2.jpg" alt="Foto 2">
+                    <img src="/img/slideshow/slide3.jpg" alt="Foto 3">
+                    <img src="/img/slideshow/slide4.jpg" alt="Foto 4">
+                    <img src="/img/slideshow/slide5.jpg" alt="Foto 5">
+                    <img src="/img/slideshow/slide6.jpg" alt="Foto 6">
+                    <img src="/img/slideshow/slide7.jpg" alt="Foto 7">
+                    <img src="/img/slideshow/slide8.jpg" alt="Foto 8">
+                    <img src="/img/slideshow/slide9.jpg" alt="Foto 9">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about">
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-3">ООО «НОРДВЕСТТРАНС»</h1>
+                    <p class="lead">Республика Беларусь, г.Минск, ул. Тимирязева 65, офис 607,
+                        <br>тел/факс +375 17 2544620
+                        <br><a href="mailto:info@nwt.by">info@nwt.by</a></p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="content">
+                    <p>ООО «НОРДВЕСТТРАНС» успешно осуществляет деятельность в сфере международных грузовых перевозок и экспедирования грузов, является действительным членом Ассоциации «БАМАП» (Белорусская ассоциация международных автомобильных перевозчиков) с 15 мая 1998 года.</p>
+                    <p>На протяжении последних лет, автопоезда, принадлежащие нашему предприятию, работают на постоянной контрактной основе по перевозке грузов из Беларуси в западную Европу (Германия, Бельгия, Франция, Нидерланды и т.д.), доставляя европейские грузы в Россию. В 2015 году наша компания начала успешно работать на азиатском рынке, осуществляя перевозки из Европы, Беларуси и России в Казахстан, Грузию, Армению, Азербайджан и Монголию.</p>
+                    <p>Мы предлагаем качественный и эффективный сервис по экспедированию грузов, применяя индивидуальный подход к каждому клиенту.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contacts">
+
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-3">Контакты</h1>
+                    <p class="lead">Мы всегда рады нашим клиентам, свяжитесь с нами через форму обратной связи или позвоните по одному из указанных телефонов</p>
+                    <p>Республика Беларусь, г.Минск, ул. Тимирязева 65, офис 607, тел/факс +375 17 2544620
+                        <br><a href="mailto:info@nwt.by">info@nwt.by</a></p>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <h2 class="text-center">Контакты</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>Карта проезда</h2>
+                        <div id="nwt-map"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="nwt-fb2">
+                            <h2>Обратная связь</h2>
+                            <h3>Заполните контактные данные, и мы свяжемся с вами в кратчайшие сроки:</h3>
+                            <input type="text" name="name" maxlength="50" data-wi-fb-caption="Имя" placeholder="Ваше Имя..." />
+                            <input type="tel" name="phone" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш Телефон...*" required />
+                            <input type="email" name="email" maxlength="50" data-wi-fb-caption="Почта" placeholder="Ваш E-mail..." />
+                            <textarea name="message" maxlength="500" data-wi-fb-caption="Сообщение" placeholder="Сообщение..."></textarea>
+                            <button>Написать</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+
+    <footer>
+        <p>© Nord West Trans 2017</p>
+    </footer>
+
+
+    <div class="nwt-modals">
+        <div id="nwt-srv1" class="nwt-modal">
+            <img src="/img/srv1.jpg" alt="МЕЖДУНАРОДНЫЕ ГРУЗОПЕРЕВОЗКИ">
+            <h2>МЕЖДУНАРОДНЫЕ ГРУЗОПЕРЕВОЗКИ</h2>
+            <p>Наша компания осуществляет международные перевозки автотранспортом. В сферу деятельности компании входит весь спектр услуг. Автомобильные грузоперевозки дают возможность доставки груза до двери получателя напрямую, без перевалки. Транспортные перевозки обеспечивают ритмичное поступление грузов, что освобождает покупателя от необходимости их складского накопления.</p>
+        </div>
+
+        <div id="nwt-srv2" class="nwt-modal">
+            <img src="/img/srv2.jpg" alt="КСПЕДИРОВАНИЕ ГРУЗОВ">
+            <h2>ЭКСПЕДИРОВАНИЕ ГРУЗОВ</h2>
+            <p>Что бы вы ни перевозили, будь то оборудование, партия готовой продукции или любой другой вид груза, вопросы сроков доставки и сохранности груза встают наиболее остро. Профессиональное экспедирование грузов сбережет ваши деньги и время.</p>
+            <p>Профессиональная команда опытных специалистов нашей компании учтет любые ваши пожелания, разработает максимально эффективный маршрут перевозки вашего груза и проконтролирует тщательное соблюдение всех требований и формальностей на всех этапах перевозки. Ваш груз будет в надежных руках и окажется в месте назначения в срок.</p>
+            <p>Заказав экспедиторские услуги в нашей компании, вы можете быть уверены, что ваш груз будет сопровождать опытный экспедитор, который будет вести процесс перевозки на всех этапах. Экспедитор проконтролирует погрузку и отправку товара, обеспечит наличие необходимой сопроводительной документации: проверит правильность заполнения накладных или инвойсов, оформит таможенную декларацию и застрахует груз.В период следования груза экспедитор нашей компании будет осуществлять мониторинг состояния груза и корректировать изменения маршрута следования, чтобы сделать маршрут наиболее эффективными минимизировать затраты заказчика. Маршрут будет подбираться индивидуально, в соответствии с особенностями груза и минимальным сроком доставки.</p>
+            <p>Экспедирование груза включает в себя следующие услуги:</p>
+            <ul>
+                <li>подбор транспортного средства, одного или нескольких, наиболее соответствующих характеру груза и маршруту перевозки;</li>
+                <li>определение оптимального маршрута, позволяющего уменьшить время в пути и материальные затраты заказчика. Маршрут планируется высококвалифицированными логистами;</li>
+                <li>оформление и проверка пакета необходимых сопроводительных бумаг для груза;</li>
+                <li>решение всех попутно возникающих проблем в ходе следования груза;</li>
+            </ul>
+            <p>Пользуясь услугой экспедиции, вы можете быть уверены, что груз будет доставлен четко в оговоренный срок.</p>
+        </div>
+
+        <div id="nwt-srv3" class="nwt-modal">
+            <img src="/img/srv3.jpg" alt="СБОРНЫЕ ГРУЗЫ">
+            <h2>СБОРНЫЕ ГРУЗЫ</h2>
+            <p>Доставка сборных грузов – приоритетное направление НордВестТранс уже 15 лет. Перевозка сборных грузов востребована среди компаний разных размеров, начиная с индивидуальных предпринимателей и заканчивая крупными холдингами. Сборный груз представляет собой товары от разных поставщиков, транспортируемые совместно в одном направлении. При таком способе транспортировки цена доставки снижается за счёт разумного использования пространства в транспорте, а также обеспечивается повышенная сохранность груза. Наша компания помогает клиентам использовать все достоинства доставки сборных грузов в Китай и другие страны. Мы изучаем все пожелания клиентов и характеристики груза, составляем оптимальные схемы транспортировки и рассчитываем стоимость. НордВестТранс своевременно доставляет товары в любую точку мира. Благодаря сотрудничеству с надёжными логистическими операторами качество услуг высокое, а цены выгодные. Перевозка сборных грузов от нашей компании – внимание ко всем деталям.</p>
+        </div>
+
+        <div id="nwt-srv4" class="nwt-modal">
+            <img src="/img/srv4.jpg" alt="МУЛЬТИМОДАЛЬНЫЕ ПЕРЕВОЗКИ">
+            <h2>МУЛЬТИМОДАЛЬНЫЕ ПЕРЕВОЗКИ</h2>
+            <p>Наша компания предоставляет обширный комплекс транспортно-логистических услуг, требуемых для проведения мультимодальных перевозок. Смешанная перевозка, в отличие от мономодальной, подразумевает применение двух и более типов транспорта: железнодорожного, морского, авиа и автомобильного. Благодаря составлению комбинированных схем можно проложить гибкий и подходящий маршрут, снизить затраты на грузоперевозки, объединить географически отдалённые пункты прибытия и отправления и предоставить быструю скорость транспортировки. Оператор смешанной перевозки несёт ответственность за комбинированную перевозку на основании заключённого соглашения. При такой форме взаимодействия уменьшается бюрократическая нагрузка на грузоотправителя. Холдинг НордВестТранс организует интермодальные и мультимодальные перевозки, чтобы заказчики на собственном опыте ощутили всех их достоинства. Опытные сотрудники нашей компании проводят анализ потребностей каждого клиента, учитывают свойства перевозимого товара, составляют оптимальный маршрут грузоперевозки по Средней Азии, Европе, Прибалтике, Балканам и странам СНГ. Мы обеспечиваем своевременные комбинированные грузовые перевозки всех товаров, независимо от расстояния. НордВестТранс проводит гибкую политику в отношении стоимости услуг и обеспечивает стабильно высокий уровень обслуживания.</p>
+        </div>
+
+        <div id="nwt-srv5" class="nwt-modal">
+            <img src="/img/srv5.jpg" alt="ЖЕЛЕЗНОДОРОЖНЫЕ ПЕРЕВОЗКИ">
+            <h2>ЖЕЛЕЗНОДОРОЖНЫЕ ПЕРЕВОЗКИ</h2>
+            <p>Холдинг НордВестТранс предоставляет обширный спектр транспортно-логистических услуг, требуемых для организации грузоперевозки железнодорожным транспортом. Сегмент железнодорожных грузоперевозок имеет стабильно высокий спрос и оборот грузов независимо от рыночной ситуации. Железнодорожный транспорт универсален, этим и объясняются надёжность и впечатляющие рыночные показатели. Грузовые поезда быстро преодолевают значительные расстояния, а также могут осуществлять безопасную перевозку больших объёмов грузов, благодаря своей грузоподъёмности. Наша компания организует и обеспечивает междугородние и международные перевозки грузов вагонами, чтобы дать нашим заказчикам возможность ощутить все их достоинства. Опытные сотрудники НордВестТранс учитывают свойства перевозимого товара, проводят анализ индивидуальных запросов клиента, составляют наиболее подходящий маршрут перевозки по Средней Азии, СНГ, Прибалтике и Европе. Независимо от расстояния, мы гарантируем своевременную транспортировку любого вида товара, включая перевозку негабаритных и тяжеловесных грузов по железной дороге. НордВестТранс сотрудничает с международными логистическими фирмами, что позволяет нам проводить гибкую ценовую политику и предоставлять стабильно высокий уровень обслуживания.</p>
+        </div>
+
+        <div id="nwt-srv6" class="nwt-modal">
+            <img src="/img/srv6.jpg" alt="СТРАХОВАНИЕ">
+            <h2>СТРАХОВАНИЕ ГРУЗОВ</h2>
+            <p>В комплекс транспортных и логистических услуг компании НордВестТранс входят услуги страхования груза. Любые внутренние и международные перевозки сопряжены с рисками утраты и порчи товара. Страхование позволяет нивелировать убытки в том случае, когда меры предосторожности не помогли сохранить целостность груза.</p>
+        </div>
+
+
+        <div id="nwt-fb1" class="nwt-modal">
+            <h2>Рассчитать перевозку</h2>
+            <h3>заполните форму заявки и мы рассчитаем стоимость грузоперевозки:</h3>
+            <input type="text" name="company" maxlength="50" data-wi-fb-caption="Компания" placeholder="Компания...*" required/>
+            <input type="text" name="name" maxlength="50" data-wi-fb-caption="Имя/Фамилия" placeholder="Ваше Имя/Фамилия ...*" required/>
+            <input type="tel" name="phone" maxlength="50" data-wi-fb-caption="Телефон" placeholder="Ваш телефон...*" required />
+            <input type="email" title="e-mail" data-wi-fb-caption="e-mail" placeholder="Ваш E-mail...*" required>
+            <input type="text" name="fromCountry" maxlength="50" data-wi-fb-caption="Откуда(страна)" placeholder="Откуда(страна)*" required/>
+            <input type="text" name="fromCity" maxlength="50" data-wi-fb-caption="Откуда(город)" placeholder="Откуда(город)...*" required/>
+            <input type="text" name="toCountry" maxlength="50" data-wi-fb-caption="Куда(страна)" placeholder="Куда(страна)...*" required/>
+            <input type="text" name="toCity" maxlength="50" data-wi-fb-caption="Куда(город)" placeholder="Куда(город)...*" required/>
+            <select data-wi-fb-caption="Транспорт">
+                    <option selected disabled>Выбор транспорта...*</option>
+                    <option value="Авиа">Авиа</option>
+                    <option value="Автомобильный">Автомобильный</option>
+                    <option value="Железнодорожный">Железнодорожный</option>
+                    <option value="Морской">Морской</option>
+                    <option value="Мультимодальный">Мультимодальный</option>
+                </select>
+            <input type="text" name="type" maxlength="50" data-wi-fb-caption="Тип груза" placeholder="Тип груза...*" required/>
+            <input type="number" name="mass" maxlength="50" data-wi-fb-caption="Вес" placeholder="Вес(в килограммах)...*" required/>
+            <!--            <textarea name="message" maxlength="500" data-wi-fb-caption="Сообщение" placeholder="Особености груза..."></textarea>-->
+            <input type="text" name="message" maxlength="50" data-wi-fb-caption="Сообщение" placeholder="Особености груза..." />
+            <p>*Обращаем Ваше внимание, что компания НордВестТранс не работает с физическими лицами.</p>
+            <button>Рассчитать перевозку</button>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
